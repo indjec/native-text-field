@@ -48,7 +48,13 @@ class _MyChatScreenState extends State<MyChatScreen> {
         child: Column(
           children: const [
             Expanded(
-              child: Text('hello'),
+              child: Text(
+                'DEMO',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
             ),
             BottomBar(),
           ],
