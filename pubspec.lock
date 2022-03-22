@@ -72,10 +72,12 @@ packages:
   flutter_native_text_input:
     dependency: "direct main"
     description:
-      name: flutter_native_text_input
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.1.1"
+      path: "."
+      ref: uitextview-placeholder
+      resolved-ref: "991675aa2381d656aad953f468ab7251c134432d"
+      url: "https://github.com/collinjackson/flutter-native-text-input"
+    source: git
+    version: "2.2.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -115,7 +117,7 @@ packages:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.0"
+    version: "1.8.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -162,7 +164,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.8"
+    version: "0.4.9"
   typed_data:
     dependency: transitive
     description:

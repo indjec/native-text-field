@@ -29,8 +29,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_native_text_input: ^2.1.1
-
+  flutter_native_text_input:
+    git:
+      url: https://github.com/collinjackson/flutter-native-text-input
+      ref: uitextview-placeholder
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
