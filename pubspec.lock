@@ -72,10 +72,12 @@ packages:
   flutter_native_text_input:
     dependency: "direct main"
     description:
-      name: flutter_native_text_input
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.1.1"
+      path: "."
+      ref: padding-fix
+      resolved-ref: "9e2cb10dbb935ff113db0908bcf0b70990fb8da4"
+      url: "https://github.com/collinjackson/flutter-native-text-input"
+    source: git
+    version: "2.2.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
